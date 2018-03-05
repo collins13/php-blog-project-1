@@ -1,0 +1,193 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	font-family: arial;
+	font-size: 20px;
+	color: #303030;
+}
+
+#container-me{
+	width: 100%;
+	position: fixed;
+	background-color: #106d34;
+}
+#container-me ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #106d34;
+}
+.side-b li{
+	
+		float: left;
+		line-height: 5px;
+		border: 1px solid white;
+		margin-left: 10px;
+		margin-top: 10px;
+		color: #080808;
+		margin-bottom: 15px;
+}
+.side-b ul{
+	list-style-type: none;
+}
+.side-b li a {
+    display: block;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+	float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.sb{
+	width: 300px;
+	float: right;
+	margin-right: 20px;
+}
+#core{
+	background-color: green;
+}
+.side{
+	height: 200px;
+	margin-left: 10px;
+	width: 100%;
+	background-color: green;
+	background: url('../images/evergreen-conifers.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: inherit;
+}
+
+img{
+	border: none;
+}
+
+h2{
+	font-family: arial;
+	font-size: 35px;
+	color: black;
+	font-weight: normal;
+	font-weight: #606060;
+	text-shadow: 1px 1px 3px #080808;
+}
+h3{
+	margin-bottom: 15px;
+	font-size: 22px;
+	color: #fff;
+	text-shadow: 1px 1px 3px #080808;
+
+}
+h4{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+	font-weight: #606060;
+}
+
+h5{
+	text-align: center;
+	font-size: 14px;
+	font-family: arial;
+	color: #404040;
+
+}
+
+h6{
+	text-align: center;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+
+}
+
+.color{
+		margin-top: 10px;
+	padding: 5px 0px 5px 10px;
+	display: block;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	background-color: #006699;
+	font-weight: bold;
+
+
+}
+.color ul a:hover{
+	color: rgb(22, 7, 10);
+}
+.color ul a{
+	background-color: rgb(199, 224, 231);
+}
+.ttl{
+	background-color: rgb(87, 90, 248);
+
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 15px auto 0px;
+	text-align: left;
+}
+
+#main_header{
+
+}
+
+#rightalign{
+	text-align: right;
+
+}
+#top_search{
+	margin-top: 10px;
+	padding: 5px 0px 5px 10px;
+	display: block;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	background-color: #006699;
+
+}
+#main_aside{
+	width: 208px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-width: 1px;
+	float: left;
+}
+#main_section{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	float: left;
+	width: 780px;
+}
+
+#main_footer{
+	margin-top: 30px;
+	clear: both;
+	font-size: 10px;
+
+}
+
+.searchbox{
+	padding: 2px;
+	border: 1px solid #b9bdc1;
+    color: #505050;
+
+}
